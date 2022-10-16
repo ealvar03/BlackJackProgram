@@ -81,25 +81,6 @@ def check_players_score():
             computer_play()
             keep_playing = False
     show_result()
-    # if user_score == 21:
-    #     if computer_score == 21:
-    #         print(f"Computer's hand: {computer}. Your hand: {user}. Computer score: {computer_score}. "
-    #               f"Your score: {user_score}. You lose.")
-    #     else:
-    #         print(f"Computer's hand: {computer}. Your hand: {user}. Computer score: {computer_score}. "
-    #               f"Your score: {user_score}. You win.")
-    # elif computer_score == 21:
-    #     print(f"Computer's hand: {computer}. Your hand: {user}. Computer score: {computer_score}. "
-    #           f"Your score: {user_score}. You lose.")
-    # elif computer_score > user_score:
-    #     print(f"Computer's hand: {computer}. Your hand: {user}. Computer score: {computer_score}. "
-    #           f"Your score: {user_score}. You lose.")
-    # elif computer_score == user_score:
-    #     print(f"Computer's hand: {computer}. Your hand: {user}. Computer score: {computer_score}. "
-    #           f"Your score: {user_score}. It's a draw.")
-    # elif user_score > computer_score:
-    #     print(f"Computer's hand: {computer}. Your hand: {user}. Computer score: {computer_score}. "
-    #           f"Your score: {user_score}. You win.")
 
 
 # Function that will draw cards until their score goes over 16.
